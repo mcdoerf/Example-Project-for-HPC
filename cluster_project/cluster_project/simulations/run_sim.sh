@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --array=1-6%2
 #SBATCH --job-name=run_sim_job
-#SBATCH --partition=wrobel
+#SBATCH --partition=day-long-cpu
 #SBATCH --output=run_sim.out
 #SBATCH --error=run_sim.err
 
