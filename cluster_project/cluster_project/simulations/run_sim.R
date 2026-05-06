@@ -24,9 +24,9 @@ if(substring(wd, 2, 6) == "Users"){
 ## define or source functions used in code below
 ###############################################################
 
-source(here::here("Module 3 - Cluster computing", "2-20", "cluster_project", "cluster_project", "source", "sim_survival.R"))
+source(here::here("cluster_project", "cluster_project", "source", "sim_survival.R"))
 
-source(here::here("Module 3 - Cluster computing", "2-20", "cluster_project", "cluster_project", "source", "fit_em.R"))
+source(here::here("cluster_project", "cluster_project", "source", "fit_em.R"))
 ###############################################################
 ## set simulation design elements
 ###############################################################
